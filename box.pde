@@ -12,7 +12,6 @@ class Box
   void Draw()
   {
     translate(_x, _y, _z);
-    fill (255, 0, 0);
     box(50, 50, 50);
     translate(-_x, -_y, -_z);
     
